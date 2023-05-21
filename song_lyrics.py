@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import re
 
 def check_song_lyrics(lyrics):
