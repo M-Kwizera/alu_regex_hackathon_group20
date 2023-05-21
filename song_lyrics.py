@@ -8,8 +8,6 @@ def check_song_lyrics(lyrics):
         verse_number = match.group(1)
         some_lyrics = match.group(2)
         print("Song lyrics match the pattern.")
-        print("Verse Number:", verse_number)
-        print("Lyrics:", some_lyrics)
     else:
         print("Song lyrics do not match the pattern.")
 
