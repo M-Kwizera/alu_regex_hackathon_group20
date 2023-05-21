@@ -12,7 +12,7 @@ def check_twitter_handle(handle):
         print(handle, "is not a valid Twitter handle.")
 
 #to use:
-#replace 'input your tw... ' with your twitter handle
+#replace '#twitter Handle' with your twitter handle
 
 # Execution:
 twitter_handle = "#twitter Handle"
