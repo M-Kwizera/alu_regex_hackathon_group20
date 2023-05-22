@@ -17,4 +17,3 @@ def check_episode_title(episode_title):
 
 episode_title = "Grays Anatomy S10E12: surgery"
 check_episode_title(episode_title)
-
