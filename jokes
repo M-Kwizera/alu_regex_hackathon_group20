@@ -1,0 +1,22 @@
+#!/usr/bin/python3
+
+import re
+
+def check_jokes(jokes):
+    pattern = r"(.*\?)(.*\.)"
+    match = re.match(pattern, jokes)
+    
+    if match:
+        question = match.group(1)
+        answer = match.group(2)
+        print("lol thats a good one.")
+    else:
+        print("lol how did you come up with that?")
+
+#Usage:
+#change the song_lyrics variable to any lyric line you wish to check
+
+
+# Example of  usage
+jokes = "Why did the chicken cross the road? To get some KFC."
+check_jokes(jokes)
