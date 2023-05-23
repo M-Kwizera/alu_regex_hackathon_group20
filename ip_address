@@ -20,4 +20,3 @@ for ip in ip_addresses:
         print(f"{ip} is a valid IP address.")
     else:
         print(f"{ip} is not a valid IP address.")
-
